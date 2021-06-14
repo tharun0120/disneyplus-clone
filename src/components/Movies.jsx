@@ -8,16 +8,63 @@ const Recommends = (props) => {
 
   return (
     <Container>
-      <h4>Recommend For You</h4>
+      <h4>Recommended For You</h4>
       <Content>
         {movies &&
           movies.map((movie) => {
             return (
-              <Wrap key={movie.id}>
-                <Link to="/details">
-                  <img src={movie.cardImg} alt="" />
-                </Link>
-              </Wrap>
+              movie.type === "recommend" && (
+                <Wrap key={movie.id}>
+                  <Link to={`/details/${movie.id}`}>
+                    <img src={movie.cardImg} alt="" />
+                  </Link>
+                </Wrap>
+              )
+            );
+          })}
+      </Content>
+      <h4>Originals</h4>
+      <Content>
+        {movies &&
+          movies.map((movie) => {
+            return (
+              movie.type === "original" && (
+                <Wrap key={movie.id}>
+                  <Link to={`/details/${movie.id}`}>
+                    <img src={movie.cardImg} alt="" />
+                  </Link>
+                </Wrap>
+              )
+            );
+          })}
+      </Content>
+      <h4>Trending</h4>
+      <Content>
+        {movies &&
+          movies.map((movie) => {
+            return (
+              movie.type === "trending" && (
+                <Wrap key={movie.id}>
+                  <Link to={`/details/${movie.id}`}>
+                    <img src={movie.cardImg} alt="" />
+                  </Link>
+                </Wrap>
+              )
+            );
+          })}
+      </Content>
+      <h4>New</h4>
+      <Content>
+        {movies &&
+          movies.map((movie) => {
+            return (
+              movie.type === "new" && (
+                <Wrap key={movie.id}>
+                  <Link to={`/details/${movie.id}`}>
+                    <img src={movie.cardImg} alt="" />
+                  </Link>
+                </Wrap>
+              )
             );
           })}
       </Content>
@@ -27,6 +74,7 @@ const Recommends = (props) => {
 
 const Container = styled.div`
   padding: 0 0 26px;
+  text-transform: uppercase;
 `;
 
 const Content = styled.div`
