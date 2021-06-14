@@ -83,11 +83,18 @@ const ImageTitle = styled.div`
   width: 35vw;
   min-height: 17px;
   min-width: 20px;
+  position: relative;
 
   img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  @media (min-width: 800px) {
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
   }
 `;
 
@@ -155,5 +162,6 @@ const Description = styled.div`
   font-size: 20px;
   margin-top: 16px;
   color: rgb(249, 249, 249);
+  width: 50vw;
 `;
 export default Details;
