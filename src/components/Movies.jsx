@@ -23,6 +23,21 @@ const Recommends = (props) => {
             );
           })}
       </Content>
+      <h4>New to Disney+</h4>
+      <Content>
+        {movies &&
+          movies.map((movie) => {
+            return (
+              movie.type === "new" && (
+                <Wrap key={movie.id}>
+                  <Link to={`/details/${movie.id}`}>
+                    <img src={movie.cardImg} alt="" />
+                  </Link>
+                </Wrap>
+              )
+            );
+          })}
+      </Content>
       <h4>Originals</h4>
       <Content>
         {movies &&
@@ -44,21 +59,6 @@ const Recommends = (props) => {
           movies.map((movie) => {
             return (
               movie.type === "trending" && (
-                <Wrap key={movie.id}>
-                  <Link to={`/details/${movie.id}`}>
-                    <img src={movie.cardImg} alt="" />
-                  </Link>
-                </Wrap>
-              )
-            );
-          })}
-      </Content>
-      <h4>New</h4>
-      <Content>
-        {movies &&
-          movies.map((movie) => {
-            return (
-              movie.type === "new" && (
                 <Wrap key={movie.id}>
                   <Link to={`/details/${movie.id}`}>
                     <img src={movie.cardImg} alt="" />
