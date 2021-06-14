@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./components/Login.jsx";
 import Header from "./components/Header.jsx";
 import Home from "./components/Home.jsx";
+import Details from "./components/Details.jsx";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/details">
+            <Details />
           </Route>
         </Switch>
       </Router>

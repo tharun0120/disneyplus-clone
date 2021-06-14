@@ -3,6 +3,7 @@ import styled from "styled-components";
 const Login = (props) => {
   return (
     <Container>
+      <BgImage />
       <Content>
         <CTA>
           <CTALogoOne src="/images/cta-logo-one.svg" alt="" />
@@ -14,7 +15,6 @@ const Login = (props) => {
           </Description>
           <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
         </CTA>
-        <BgImage />
       </Content>
     </Container>
   );
@@ -25,7 +25,7 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 100vh;
+  height: calc(100vh - 70px);
 `;
 
 const Content = styled.div`
