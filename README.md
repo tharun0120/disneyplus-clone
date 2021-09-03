@@ -1,1 +1,1 @@
-### Disney+ Clone using React with Redux and stlyed compoments and Firebase
+# Disney+ Clone using React with Redux and stlyed compoments and Firebase
