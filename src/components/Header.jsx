@@ -69,27 +69,27 @@ const Header = (props) => {
       ) : (
         <>
           <NavMenu>
-            <Link to="/home">
+            <Link to={"/home"}>
               <img src="/images/home-icon.svg" alt="HOME" />
               <span>HOME</span>
             </Link>
-            <Link to="/home">
+            <Link to={"/home"}>
               <img src="/images/search-icon.svg" alt="SEARCH" />
               <span>SEARCH</span>
             </Link>
-            <Link to="/home">
+            <Link to={"/home"}>
               <img src="/images/watchlist-icon.svg" alt="WATCHLIST" />
               <span>WATCHLIST</span>
             </Link>
-            <Link to="/home">
+            <Link to={"/home"}>
               <img src="/images/original-icon.svg" alt="ORIGINAL" />
               <span>ORIGINALS</span>
             </Link>
-            <Link to="/home">
+            <Link to={"/home"}>
               <img src="/images/movie-icon.svg" alt="MOVIES" />
               <span>MOVIES</span>
             </Link>
-            <Link to="/home">
+            <Link to={"/home"}>
               <img src="/images/series-icon.svg" alt="SERIES" />
               <span>SERIES</span>
             </Link>
