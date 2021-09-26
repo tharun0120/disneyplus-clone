@@ -1,6 +1,6 @@
 # Clone of Disney+
 
-## <a href="https://disneyplus-clone-tharun.netlify.app" target="_blank">Take A Look</a>
+## --> <a href="https://disneyplus-clone-tharun.netlify.app" target="_blank">Take A Look</a>
 
 ### A real time clone of the <a href="https://disneyplus.com" target="_blank">Disney+</a> website with the help of
 
