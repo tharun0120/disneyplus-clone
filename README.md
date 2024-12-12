@@ -1,16 +1,34 @@
-# Clone of Disney+
+# Disney+ Clone
 
-## <a href="https://disneyplus-clone-tharun.netlify.app" target="_blank">Take A Look</a>
+A full-featured clone of Disney+ streaming service built with React, Redux, and Firebase. This project demonstrates modern web development practices including component-based architecture, state management, and real-time data handling.
 
-### A real time clone of the <a href="https://disneyplus.com" target="_blank">Disney+</a> website with the help of
+## Features
 
-- ReactJs
-- Redux
-- Styled Components
-- Hosted with Netlify
+- 🔐 Google Authentication
+- 🎥 Dynamic video playback
+- 🎬 Movie/Show details view
+- 🏠 Responsive home page with categories
+- 🎯 Custom carousel/slider
+- 💾 Real-time data from Firebase
+- 📱 Mobile-responsive design
+
+## Technologies Used
+
+- React.js - Frontend framework
+- Redux - State management
+- Firebase - Backend & Authentication
+- Styled Components - Styling
+- React Router - Navigation
+- React Slick - Carousel functionality
+
+This project was built with:
 
 <p align="center">
-  <img src="https://github.com/tharun0120/tharun0120/blob/main/logos/react.svg" width="65" height="65"/>
-  <img src="https://github.com/tharun0120/tharun0120/blob/main/logos/nodejs.svg" width="65" height="65"/>
-  <img src="https://github.com/tharun0120/tharun0120/blob/main/logos/firebase.svg" width="65" height="65"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="65" height="65" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="65" height="65" alt="NodeJS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="65" height="65" alt="Firebase"/>
 </p>
+
+## License
+
+This project is for educational purposes only. All rights reserved to Disney.
